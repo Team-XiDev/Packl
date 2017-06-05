@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+*{
+    margin:0;
+    padding; 0;
+    font-family: 'Acme', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+
+body, html{height:100%;}
+
+body{
+    text-align:center;
+}
+
+#foot{
+    border-top: 2px solid orange;
+}
+
+footer{
+    background:#666;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:25px;
+    height:25px;
+}
+
+#text-footer{
+    font-family: 'Acme', sans-serif;
+}
